@@ -1,6 +1,6 @@
 import uuid
 import time
-import memory_profiler
+import memory_profiler # type: ignore
 
 # start memory usage
 m1 = memory_profiler.memory_usage()
