@@ -80,7 +80,7 @@ def get_network_info():
 def get_gpu_info_windows():
     try:
         # Use WMI to query GPU info on Windows
-        import win32com.client
+        import win32com.client # type: ignore
         
         wmi = win32com.client.Dispatch("WbemScripting.SWbemLocator")
         objWMIService = wmi.ConnectServer_()
