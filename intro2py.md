@@ -144,4 +144,36 @@ else:
 - Indentation matters in Python! Use 4 spaces or a tab for each level of indentation.
 - Simplify complex conditions using logical operators (and, or).
 
-  
+
+#### Loops (while and for)
+Loops allow you to repeat code multiple times without rewriting it. There are two types: while loops and for loops.
+
+##### While Loop
+Runs as long as a condition is true.
+
+```
+count = 0
+
+while count < 5:
+    print(count)
+    count += 1
+```
+##### For Loop
+Iterates over a sequence (like a list, tuple, or string).
+
+```
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+    print(fruit)
+```
+Let’s Code: Sum of Numbers!
+
+```
+sum = 0
+
+for i in range(1, 6):
+    sum += i
+
+print("Sum =", sum)  # Output: Sum = 15
+```
