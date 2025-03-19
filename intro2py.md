@@ -116,3 +116,32 @@ print(a - b)
 print(a * b)
 print(a / b)
 ```
+
+#### Control Flow (if-elif-else)
+Control flow determines the order in which your code runs. The most common structure is if, elif, and else.
+
+```
+if condition:
+    # code block if condition is true
+elif another_condition:
+    # code block if previous conditions are false, but this one is true
+else:
+    # code block if all conditions are false
+```
+Example:
+```
+age = int(input("Enter your age: "))
+
+if age < 18:
+    print("You're a minor!")
+elif age >= 18 and age <= 65:
+    print("You're an adult!")
+else:
+    print("You're a senior citizen!")
+```
+
+##### Tips & Tricks:
+- Indentation matters in Python! Use 4 spaces or a tab for each level of indentation.
+- Simplify complex conditions using logical operators (and, or).
+
+  
