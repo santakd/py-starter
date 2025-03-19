@@ -20,3 +20,45 @@ Your First Program:
 `print("Hello World!")`
 
 Run this program, and you’ll see “Hello World!” printed on your screen. Congrats, you’re now a Python programmer!
+
+#### Variables and Data Types
+Variables are like containers that hold values in Python. 
+You can store numbers, text, lists, or even other objects in variables. Let’s explore some basic data types:
+
+ 
+##### 1. Integers
+Whole numbers (e.g., 5, -3).
+
+```
+age = 20
+print(age)  # Output: 20
+```
+
+##### 2. Floats
+Decimal numbers (e.g., 3.14, 2.5).
+
+```
+pi = 3.14`
+print(pi)  # Output: 3.14
+```
+
+##### 3. Strings
+Text enclosed in quotes (e.g., "Hello", 'World').
+
+```
+name = "Alice"
+print(name)  # Output: Alice
+```
+
+##### 4. Booleans
+Logical values (True or False).
+
+```
+is_python_fun = True
+print(is_python_fun)  # Output: True
+```
+
+##### Tips & Tricks:
+Variable names should be descriptive (e.g., my_age, not just a).
+Avoid using reserved keywords like if, else, or while as variable names.
+
