@@ -103,7 +103,7 @@ y = 3
 
 print(x > y and x != y)  # True
 print(x < y or x == y)   # False
-print(not (x == y))       # True
+print(not (x == y))      # True
 ```
 
 Let’s Code: Simple Calculator!
