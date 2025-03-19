@@ -177,3 +177,50 @@ for i in range(1, 6):
 
 print("Sum =", sum)  # Output: Sum = 15
 ```
+
+#### Functions and Libraries
+Functions are reusable blocks of code that perform a specific task. Libraries are collections of functions that extend Python’s capabilities.
+
+##### Defining a Function:
+```
+def greet(name):
+    print("Hello", name, "!")
+
+greet("Alice")  # Output: Hello Alice!
+```
+
+##### Built-in Functions:
+Python has many built-in functions like len(), type(), and input().
+
+```
+text = "Hello World!"
+print(len(text))  # Output: 12
+```
+
+##### Importing Libraries:
+Libraries like math, random, or pandas add new functionality to Python.
+
+```
+import math
+
+radius = 5
+area = math.pi * radius ** 2
+print(area)  # Output: ~78.54
+```
+
+##### Tips & Tricks:
+- Use functions to avoid repeating code.
+- Libraries save time by providing ready-made solutions for common problems.
+
+
+#### Final Words
+You’ve covered the basics of Python programming! Keep practicing, and soon you’ll be creating cool projects like games, websites, or even AI models. 
+
+Remember:
+
+- Practice regularly (even 15 minutes a day makes a difference!).
+- Experiment with code (don’t be afraid to make mistakes).
+- Join coding communities for support and inspiration (e.g., Reddit’s r/learnpython or Stack Overflow).
+- Enjoy and share your learning.
+  
+Happy coding! 🚀
