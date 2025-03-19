@@ -208,6 +208,9 @@ area = math.pi * radius ** 2
 print(area)  # Output: ~78.54
 ```
 
+Check this program to generate random numbers using random
+[randomnum.py](https://github.com/santakd/py-starter/blob/main/randomnum.py)
+
 ##### Tips & Tricks:
 - Use functions to avoid repeating code.
 - Libraries save time by providing ready-made solutions for common problems.
