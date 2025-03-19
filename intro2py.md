@@ -208,9 +208,14 @@ area = math.pi * radius ** 2
 print(area)  # Output: ~78.54
 ```
 
-Check this program to generate random numbers using random library
+Check these programs from the repo
+Program to generate random numbers using random library
  
 ![randomnum.py](https://github.com/santakd/py-starter/blob/main/randomnum.py)
+
+Remember the Magic 8 ball, here is a fun program implementing that
+
+![Magic 8 Ball](https://github.com/santakd/py-starter/blob/main/magic8ball.py)
 
 ##### Tips & Tricks:
 - Use functions to avoid repeating code.
