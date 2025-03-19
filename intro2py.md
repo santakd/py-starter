@@ -59,6 +59,60 @@ print(is_python_fun)  # Output: True
 ```
 
 ##### Tips & Tricks:
-Variable names should be descriptive (e.g., my_age, not just a).
-Avoid using reserved keywords like if, else, or while as variable names.
+- Variable names should be descriptive (e.g., my_age, not just a).
+- Avoid using reserved keywords like if, else, or while as variable names.
 
+
+#### Operators and Expressions
+Operators are symbols that perform operations on values or variables. Let’s explore some common ones!
+
+##### Arithmetic Operators
+
+```
+# Addition
+print(5 + 3)  # Output: 8
+
+# Subtraction
+print(10 - 2)  # Output: 8
+
+# Multiplication
+print(4 * 2)  # Output: 8
+
+# Division
+print(16 / 2)  # Output: 8.0
+
+# Modulus (remainder)
+print(7 % 3)  # Output: 1
+```
+
+Comparison Operators
+```
+a = 5
+b = 3
+
+print(a > b)   # True
+print(a < b)   # False
+print(a == b)  # False
+print(a != b)  # True
+```
+Logical Operators
+Combine conditions (like and, or, not).
+```
+x = 5
+y = 3
+
+print(x > y and x != y)  # True
+print(x < y or x == y)   # False
+print(not (x == y))       # True
+```
+
+Let’s Code: Simple Calculator!
+```
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+```
