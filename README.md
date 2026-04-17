@@ -12,4 +12,7 @@ Python Learning Starter Kit
 VS Code: https://code.visualstudio.com/download
    
 Python3: https://www.python.org/downloads/
-  
+
+## ⭐ Like it? Star it!
+
+If you find this project interesting, please give it a star — it helps others discover it too. 
